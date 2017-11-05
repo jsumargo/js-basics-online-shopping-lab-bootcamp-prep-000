@@ -22,7 +22,7 @@ function viewCart() {
   // write your code here
   if (cart.length == 0) {
     console.log("Your shopping cart is empty.");
-  } else {
+  } 
     var msg = `In your cart, you have `;
     /*for(var i = 0; i < cart.length; i++){
       var item = Object.keys(cart[i]);
@@ -35,7 +35,7 @@ function viewCart() {
       }
     }*/
     console.log(msg);
-  }
+  
 }
 
 function total() {
