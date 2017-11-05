@@ -24,7 +24,7 @@ function viewCart() {
     console.log("Your shopping cart is empty.");
   } else {
     var msg = `In your cart, you have `;
-    for(var i = 0; i < cart.length; i++){
+    /*for(var i = 0; i < cart.length; i++){
       var item = Object.keys(cart[i]);
       var price = cart[i][item];
       msg += `${item} at ${price}`;
@@ -33,7 +33,7 @@ function viewCart() {
       } else {
         msg += `,`;
       }
-    }
+    }*/
     console.log(msg);
   }
 }
