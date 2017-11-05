@@ -28,7 +28,7 @@ function viewCart() {
       var item = Object.keys(cart[i]);
       var price = cart[i][item];
       if(cart.length == 1) {
-        msg += `${item} at ${}`
+        msg += `${item} at ${price}.`;
       }
     }
   }
