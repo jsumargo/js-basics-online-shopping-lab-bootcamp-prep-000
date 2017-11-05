@@ -29,9 +29,9 @@ function viewCart() {
       var price = cart[i][item];
       msg += `${item} at ${price}`;
       if(cart.length == 1) {
-        
+        msg += `.`;
       } else {
-        
+
       }
     }
     console.log(msg);
