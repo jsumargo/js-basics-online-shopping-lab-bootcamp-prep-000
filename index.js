@@ -23,10 +23,12 @@ function viewCart() {
   if (cart.length == 0) {
     console.log("Your shopping cart is empty.");
   } else {
+    var msg = `In your cart, you have `;
     for(var i = 0; i < cart.length; i++){
-      var msg = `In your cart, you have `;
+      var item = Object.keys(cart[i]);
+      var price = cart[i][item];
       if(cart.length == 1) {
-        
+        msg += `${item} at ${}`
       }
     }
   }
