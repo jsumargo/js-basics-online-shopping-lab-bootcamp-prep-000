@@ -20,8 +20,15 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  if (cart.length <= 0) {
+  if (cart.length == 0) {
     console.log("Your shopping cart is empty.");
+  } else {
+    for(var i = 0; i < cart.length; i++){
+      var msg = `In your cart, you have `;
+      if(cart.length == 1) {
+        
+      }
+    }
   }
 }
 
