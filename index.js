@@ -24,6 +24,11 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var total = 0;
+  for(var i = 0; i < cart.length; i++) {
+    total += cart[i][1];
+  }
+  return total;
 }
 
 function removeFromCart(item) {
